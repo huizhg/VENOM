@@ -5,6 +5,7 @@ This is the code implementation for our paper, ***VENOM: Text-driven Unrestricte
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Usage](#usage)
+4. [Citation&Acknowledgment](#citationacknowledgment)
 ---
 
 ## Introduction
@@ -50,15 +51,19 @@ NAE mode creates adversarial examples from random noise. Use `--test True` to ge
 python run_venom_nae.py --test True
 ```
 
-<!--this is a comment
-## Citation
+
+## Citation&Acknowledgment
+If you find this paper or code useful, please consider citing it.
+
 ```scss
-@article{venom,
-  author    = {Hui, Kuurila-Zhang and Haoyu, Chen and Guoying, Zhao},
-  title     = {VENOM: Text-driven Unrestricted Adversarial Example Generation with Diffusion Models},
-  journal   = {arxiv},
-  year      = {2025}
+@misc{venom,
+      title={VENOM: Text-driven Unrestricted Adversarial Example Generation with Diffusion Models}, 
+      author={Hui Kuurila-Zhang and Haoyu Chen and Guoying Zhao},
+      year={2025},
+      eprint={2501.07922},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2501.07922}, 
 }
 ```
-
--->
+Thanks to the open-source projects [DiffAttack](https://github.com/WindVChen/DiffAttack) and [AdvDiff](https://github.com/EricDai0/advdiff). Some of our code is based on them.
