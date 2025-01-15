@@ -55,7 +55,7 @@ python run_venom_nae.py --test True
 ## Citation&Acknowledgment
 If you find this paper or code useful, please consider citing it.
 
-```scss
+```bibtex
 @misc{venom,
       title={VENOM: Text-driven Unrestricted Adversarial Example Generation with Diffusion Models}, 
       author={Hui Kuurila-Zhang and Haoyu Chen and Guoying Zhao},
